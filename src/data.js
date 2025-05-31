@@ -4,7 +4,7 @@ export default [
         id: 1,
         firstName: 'Isaac',
         lastName: 'Odey',
-        gig: 'Front-end Developer',
+        gig: 'Fullstack Developer',
         image: 'isaac.png',
         socialHeader: [
                 {
