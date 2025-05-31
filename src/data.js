@@ -22,7 +22,7 @@ export default [
         ],
             
         socialFooter: [
-                twitter: {
+                {
                      image: 'twitter.png',
                      link: 'famous_isaaco'
                  },
