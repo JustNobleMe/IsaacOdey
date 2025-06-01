@@ -4,7 +4,7 @@ import App from './App'
 import './style.css'
 import '../src/styles/media.css'
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+ReactDOM.createRoot( document.getElementById('root')).render(    
     <div>
         <App />
     </div>

@@ -9,6 +9,25 @@ body {
     background-color: rgb(215, 215, 215);
 }
 
+/* Loader */
+.loader {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loaderImg {
+    animation: rotate 2s linear infinite;
+}
+
+@keyframes rotate {
+    to {
+        transform: rotate(360deg);
+    }
+    
+}
+
 /* WideScreen Nav */
 #nav {
     position: sticky;
