@@ -22,10 +22,10 @@ export default [
         ],
             
         socialFooter: [
-                {
-                     image: 'twitter.png',
-                     link: 'famous_isaaco'
-                 },
+                // {
+                //      image: 'twitter.png',
+                //      link: 'famous_isaaco'
+                //  },
                 {
                     image: 'facebook.svg',
                     link: 'https://facebook.com/isaac.idowu.1614'
