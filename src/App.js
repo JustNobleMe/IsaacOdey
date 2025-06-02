@@ -35,6 +35,14 @@ export default function App () {
         )
     }
 
+    const skills = data.map(info => {
+        return(
+            <Skills
+                key={info.id}
+                {...info}
+            />
+        )
+    })
 
      const head = data.map(info => {
         return (
@@ -54,13 +62,25 @@ export default function App () {
         )
      })
 
+     const portfolios = data.map(portfolioInfo => {
+        return (
+            <Portfolio
+                key={portfolioInfo.id}
+                {...portfolioInfo}
+             />
+        )
+     }
+     )
+
+
+
     return (
         <div>
             <Nav />
             {head}
             <About />
-            <Skills />
-            <Portfolio />
+            {skills}
+            {portfolios}
             <Contact />
             {footer}
         </div>

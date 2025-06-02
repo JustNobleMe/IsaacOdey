@@ -1,6 +1,28 @@
-import React from 'react'
+import React from 'react';
 
-export default function Portfolio () {
+export default function Portfolio (props) {
+    const portfolios = [props.portfolio]
+    
+    const displayFolios = portfolios.map(details => {
+        return (
+            details.map(info => {
+                return(
+                <div className='portfolios--img'>
+                    <a href={`${info.link}`}>
+                        <img src={`./images/${info.image}`} alt={`${info.name}`} />
+                    </a>
+                    <div className='over--portfolio'>
+                        <p>coded and designed</p>
+                        <h2>{`${info.name}`}</h2>
+                        <p>{`${info.description}`}</p>
+                        <button>VIEW</button>
+                    </div>
+                </div>
+                )
+            })
+        )
+    })
+
     return (
         <section className='section--portfolio' id='portfolio'>
             <div className='portfolio--container'>
@@ -10,24 +32,7 @@ export default function Portfolio () {
                 <div className='portfolio--display'>
                     <p>ALL</p>
                     <div className='portfolios'>
-                        <div className='portfolios--img'>
-                            <img src='./images/project1.png' alt='project1' />
-                        </div>
-                        <div className='portfolios--img'>
-                            <img src='./images/project2.png' alt='project2' />
-                        </div>
-                        <div className='portfolios--img'>
-                            <img src='./images/project3.png' alt='project3' />
-                        </div>
-                        <div className='portfolios--img'>
-                            <img src='./images/project4.png' alt='project4' />
-                        </div>
-                        <div className='portfolios--img'>
-                            <img src='./images/project3.png' alt='project3' />
-                        </div>
-                        <div className='portfolios--img'>
-                            <img src='./images/project1.png' alt='project1' />
-                        </div>
+                        {displayFolios}
                     </div>
                     <p className='end--p'>And many more to come...</p>
                 </div>

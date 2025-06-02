@@ -6,6 +6,89 @@ export default [
         lastName: 'Odey',
         gig: 'Fullstack Developer',
         image: 'isaac.png',
+        usingSkills: [
+            {
+                name: 'HTML',
+                logo: 'html.svg'
+            },
+            {
+                name: 'CSS',
+                logo: 'css.png'
+            },
+            {
+                name: 'JAVASCRIPT',
+                logo: 'js.svg'
+            },
+            {
+                name: 'REACT',
+                logo: 'react.svg'
+            },
+            {
+                name: 'BOOTSTRAP',
+                logo: 'bootstrap.svg'
+            },
+            {
+                name: 'GIT & GITHUB',
+                logo: 'git.svg'
+            },
+            {
+                name: 'FIGMA',
+                logo: 'figma.svg'
+            },
+            {
+                name: 'NODEJS',
+                logo: 'node.png'
+            },
+            {
+                name: 'MYSQL',
+                logo: 'mysql.svg'
+            },
+            {
+                name: 'MONGODB',
+                logo: 'mongo.png'
+            }
+        ],
+        learningSkills: [
+            {
+                name: 'TYPESCRIPT',
+                logo: 'ts.png'
+            }
+        ],
+        otherSkills: [
+            {
+                name: 'C',
+                logo: 'c.svg'
+            },
+            {
+                name: 'C++',
+                logo: 'cpp.svg'
+            }
+        ],
+        portfolio: [
+            {
+                name: 'Project 1',
+                image: 'project1.png',
+                link: '',
+                description: 'Project information'
+            },
+            {
+                name: 'Project 2',
+                image: 'project2.png',
+                description: 'Project information'
+            },
+            {
+                name: 'Project 3',
+                image: 'project3.png',
+                link: '',
+                description: 'Project information'
+            },
+            {
+                name: 'Project 4',
+                image: 'project4.png',
+                link: '',
+                description: 'Project information'
+            }
+        ],
         socialHeader: [
                 {
                     image: 'at.png',
