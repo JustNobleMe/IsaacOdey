@@ -1,15 +1,15 @@
 import React from 'react'
 
-export default function Header (props) {
+export default function Header(props) {
     const social = [props.socialHeader]
 
     const socialData = social.map(items => {
-        return(
+        return (
             items.map(infos => {
                 return (
                     <div className='links'>
-                    <a href={`${infos.link}`} ><img src={`./images/${infos.image}`} alt='link-logo' /></a>
-                </div>
+                        <a href={`${infos.link}`} ><img src={`./images/${infos.image}`} alt='link-logo' /></a>
+                    </div>
                 )
             })
         )
@@ -24,44 +24,80 @@ export default function Header (props) {
     //         setScreenWidth(false)
     //     }
     // }
-    
+
     // window.addEventListener('resize', mobileview);
 
-    
+
     return (
         <section>
             {/* wideScreen */}
             <header className='wideScreen'>
 
                 <div className='header--container'>
-                    <div className='block1'>
-                        <div className='info'>
-                            <h3>Hi, I am</h3>
-                            <div>
-                                <h1>{props.firstName} {props.lastName}</h1>
+                    <div className='block--container'>
+                        <div className='block1'>
+                            <div className='available'>
+                                <p><span> </span> Available for related Job</p>
                             </div>
-                            <h4>{props.gig}</h4>
+                            <div className='info'>
+                                <p>Hi,</p>
+                                <div>
+                                    <h1>I'm <span className='name'>{props.firstName} {props.lastName}</span></h1>
+                                    <h2> a creative <span>{props.gig}</span></h2>
+                                </div>
+                                <p>Creating Fullstack Responsive Web Applications. I develop beautiful, 
+                                    functional websites and applications for Brands, Startups, and NGOs. 
+                                </p>
+
+                            </div>
+
+                            <div className='link--container'>
+                                {socialData}
+                            </div>
+                        </div>
+                        <div className='block2'>
+                            <div>
+                                <div className='rotate'></div>
+                                <div className='rotate'></div>
+                                <div className='rotate'></div>
+                            </div>
+                            <div>
+                                <div className='rotateSecond'>
+                                    
+                                </div>
+                                <div className='rotateSecond'></div>
+                                <div className='rotateSecond'></div>
+                            </div>
+                            <img src='./images/isaac.png' alt='developer.png' />
+                            <div className='frontRotate'>
+                                <div className='skill'>REACT</div>
+                                {/* <div className='skill'>Tailwind CSS</div> */}
+                                {/* <div className='skill'>GIT & GITHUB</div> */}
+                                <div className='skill'>NODE JS</div>
+                                <div className='skill'>Express</div>
+                                <div className='skill'>Mongo DB</div>
+                                {/* <div className='skill'>MYSQL</div> */}
+                            </div>
 
                         </div>
-
-                        <div className='link--container'>
-                            {socialData}
-                        </div>
                     </div>
-                    <div className='block2'>
-
-                        <img src='./images/isaac.png' alt='developer.png' />
-
-                    </div>
-                </div>
                 <div className='berries'>
                     <div className='berries--content'>
-                        <h1>IT BERRIES</h1>
-                        <p>Nulla in velit a metus rhoncus tempus. Nulla congue nulla vel sem varius finibus. Sed ornare sit amet lorem sed viverra. In vel urna quis libero viverra facilisis ut ac est. </p>
-
-                        <button>READ MORE</button>
+                        <div className='details'>
+                            <h2>5+</h2>
+                            <p>Years of Experience</p>
+                        </div>
+                        <div className='details'>
+                            <h2>25+</h2>
+                            <p>Projects Done</p>
+                        </div>
+                        <div className='details'>
+                            <h2>15+</h2>
+                            <p>Feedback/Reviews</p>
+                        </div>
                     </div>
                     <img className='itb--logo' src='./images/itb.png' alt='itb logo' />
+                </div>
                 </div>
             </header>
 

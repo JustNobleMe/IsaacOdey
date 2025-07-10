@@ -37,7 +37,7 @@ export default function Nav () {
                             <li><a href='#about'>About me</a></li>
                             <li><a href='#skills'>Skills</a></li>
                             <li><a href='#portfolio'>Portfolio</a></li>
-                            <li><a href='#contact'>CONTACT ME</a></li>
+                            <li><a href='#contact'>Get in touch</a></li>
                         </ul>
                 </div>
             </span>
@@ -52,7 +52,7 @@ export default function Nav () {
                         <li><a href='#about'>About me</a></li>
                         <li><a href='#skills'>Skills</a></li>
                         <li><a href='#portfolio'>Portfolio</a></li>
-                        <li><a href='#contact'>CONTACT ME</a></li>
+                        <li><a href='#contact'>Get in touch</a></li>
                     </ul>
                 </div>
             </>

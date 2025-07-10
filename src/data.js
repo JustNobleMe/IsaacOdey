@@ -3,7 +3,7 @@ export default [
     {
         id: 1,
         firstName: 'Isaac',
-        lastName: 'Odey',
+        lastName: 'ODEY',
         gig: 'Fullstack Developer',
         image: 'isaac.png',
         usingSkills: [
