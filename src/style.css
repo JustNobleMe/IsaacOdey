@@ -781,6 +781,7 @@ input::placeholder, textarea::placeholder {
 
 textarea {
     resize: none;
+    color: white;
 }
 
 button {
