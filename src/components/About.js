@@ -21,7 +21,7 @@ export default function About () {
                                 </div>
                                 <div className='about-details'>
                                     <h2>My Approach</h2>
-                                    <p>I focus on user-centered design, performance, and accessibility always evolving with modern tech
+                                    <p>I focus on user-centered target, performance, and accessibility always evolving with modern tech
                                         to deliver seamless digital experience.
                                     </p>
                                 </div>
@@ -37,19 +37,19 @@ export default function About () {
                                             <p>Nationality: <span>Nigerian</span></p>
                                         </div>
                                         <div className='detail'>
-                                            <p>Phone: <span>+2348140287102</span></p>
+                                            <p>Phone: <span><a href='tel:+2348140287102'>+2348140287102</a></span></p>
                                         </div>
                                     </div>
                                     <div>
                                         <div className='detail'>
-                                            <p>Email: <span>isaacodey01@gmail.com</span></p>
+                                            <p>Email: <span><a href="mailto:isaacodey01@gmail.com" target="_blank">isaacodey01@gmail.com</a></span></p>
                                         </div>
                                         <div className='detail'>
                                             <p>Course of Study: <span>Computer Science</span></p>
                                         </div>
                                     </div>
                                 </div>
-                                <button><a href="">Dowuload My Resume</a></button>
+                                <button><a href="./document/Odey Isaac's Resume.pdf" download>Dowuload My Resume</a></button>
                             </div>
                         </div>
                     </div>

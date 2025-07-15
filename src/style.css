@@ -538,6 +538,11 @@ body {
     font-weight: normal;
 }
 
+.about-bio-container p span a {
+    color: black;
+    text-decoration: underline;
+}
+
 .about-bio a {
     color: white;
     text-decoration: none;
@@ -694,8 +699,14 @@ body {
     }
 }
 
+.portfolios-img-container {
+    width: 500px;
+    height: 300px;
+}
+
 .portfolios--img img{
     width: 100%;
+    height: 100%;
 }
 
 .over--portfolio {
@@ -712,12 +723,19 @@ body {
 }
 
 .over--portfolio p {
+    text-align: center;
     border: none !important;
     font-style: italic;
 }
 
 .over--portfolio p:last-of-type {
     font-style: normal;
+    max-width: 60%;
+}
+
+.over--portfolio button a{
+    color: white;
+    text-decoration: none;
 }
 
 .over--portfolio h2 {

@@ -8,14 +8,16 @@ export default function Portfolio (props) {
             details.map(info => {
                 return(
                 <div className='portfolios--img'>
-                    <a href={`${info.link}`}>
-                        <img src={`./images/${info.image}`} alt={`${info.name}`} />
-                    </a>
+                    <div className='portfolios-img-container'>
+                        <a href={`${info.link}`} target='_blank'>
+                            <img src={`./images/${info.image}`} alt={`${info.name}`} />
+                        </a>
+                    </div>
                     <div className='over--portfolio'>
                         <p>coded and designed</p>
                         <h2>{`${info.name}`}</h2>
                         <p>{`${info.description}`}</p>
-                        <button>VIEW</button>
+                        <a href={`${info.link}`} target='_blank'><button>VIEW</button></a>
                     </div>
                 </div>
                 )

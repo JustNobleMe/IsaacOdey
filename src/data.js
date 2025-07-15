@@ -66,21 +66,22 @@ export default [
         ],
         portfolio: [
             {
-                name: 'Project 1',
-                image: 'project1.png',
-                link: '',
-                description: 'Project information'
+                name: 'Estate Elite',
+                image: 'estate1.png',
+                link: 'https://real-estate-ruby-zeta.vercel.app',
+                description: 'A Real Estate platform for Agents to post available properties and buyer/renters to checkout.'
             },
             {
-                name: 'Project 2',
-                image: 'project2.png',
-                description: 'Project information'
+                name: 'PAY4ME',
+                image: 'pay4me.jpg',
+                link: 'https://pay4me-kohl.vercel.app/',
+                description: 'A Landing Page for a FINTECH Company'
             },
             {
-                name: 'Project 3',
-                image: 'project3.png',
-                link: '',
-                description: 'Project information'
+                name: '50MM Collective',
+                image: 'photography.png',
+                link: 'https://50mmcollective.vercel.app/',
+                description: 'A Photography Portfolio Website'
             },
             {
                 name: 'Project 4',
