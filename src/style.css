@@ -469,7 +469,9 @@ body {
 
 /*About*/
 .section--about {
-    padding: 80px 0px;
+    background-color: aliceblue;
+    color: black;
+    padding: 80px 30px;
 }
 
 .section--container {
@@ -477,6 +479,10 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.section--about .section--container img {
+    filter: none !important;
 }
 
 .section--container img {
@@ -490,6 +496,58 @@ body {
     text-align: center;
     max-width: 700px;
     padding: 30px 0px;
+    min-width: 70vw;
+}
+
+.info-container {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.info-container .info-img {
+    background-color: rgb(119, 126, 133);
+    border: groove 15px white;
+    box-shadow: 2px 2px 5px black;
+    flex: 2;
+}
+
+.info-container .info-img img {
+    width: 110%;
+}
+
+.info-container  .info-details {
+    text-align: start;
+    flex: 4;
+}
+
+.about-details-container {
+    display: flex;
+    gap: 30px;
+}
+
+.about-bio-container {
+    display: flex;
+}
+
+.about-bio-container p {
+    font-weight: bold;
+}
+
+.about-bio-container p span {
+    font-weight: normal;
+}
+
+.about-bio a {
+    color: white;
+    text-decoration: none;
+}
+
+.about-bio button {
+    color: black !important;
+    background-color: rgb(1, 1, 7) !important;
+    border-radius: 8px !important;
+    padding: 12px 10px !important;
 }
 
 .about--container h1, .skills-header, .contact--heading {
@@ -513,7 +571,7 @@ body {
 }
 
 .explore--container img {
-    filter: invert(1.5);
+    /* filter: invert(1.5); */
 }
 
 .explore--title {

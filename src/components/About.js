@@ -6,7 +6,53 @@ export default function About () {
             <div className='section--container'>
                 <div className='about--container'>
                     <h1>ABOUT ME</h1>
-                    <p>Nulla in velit a metus rhoncus tempus. Nulla congue nulla vel sem varius finibus. Sed ornare sit amet lorem sed viverra. In vel urna quis libero viverra facilisis ut ac est.</p>
+                    <p>Discover my journey, passions, and the story behind my work</p>
+                    <div className='info-container'>
+                        <div className='info-img'>
+                            <img src='./images/isaac.png' alt='developer.png' />
+                        </div>
+                        <div className='info-details'>
+                            <div className='about-details-container'>
+                                <div className='about-details'>
+                                    <h2>Who Am I</h2>
+                                    <p>I'm a Fullstack developer who crafts Responsive, interactive, and clean softwares.
+                                        With a background in Machine Learning, I blend design sense with technical logic.
+                                    </p>
+                                </div>
+                                <div className='about-details'>
+                                    <h2>My Approach</h2>
+                                    <p>I focus on user-centered design, performance, and accessibility always evolving with modern tech
+                                        to deliver seamless digital experience.
+                                    </p>
+                                </div>
+                            </div>
+                            <div className='about-bio'>
+                                <h2>Personal Info</h2>
+                                <div className='about-bio-container'>
+                                    <div>
+                                        <div className='detail'>
+                                            <p>Name: <span>Odey Isaac</span></p>
+                                        </div>
+                                        <div className='detail'>
+                                            <p>Nationality: <span>Nigerian</span></p>
+                                        </div>
+                                        <div className='detail'>
+                                            <p>Phone: <span>+2348140287102</span></p>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div className='detail'>
+                                            <p>Email: <span>isaacodey01@gmail.com</span></p>
+                                        </div>
+                                        <div className='detail'>
+                                            <p>Course of Study: <span>Computer Science</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button><a href="">Dowuload My Resume</a></button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div className='explore--container'>
                     <h1 className='explore--title'>EXPLORE</h1>

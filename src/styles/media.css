@@ -36,5 +36,9 @@
         box-shadow: 3px 7px 4px rgba(0, 0, 0, 0);
         cursor: pointer;
     }
+
+    .info-img {
+        display: none;
+    }
     
 }
